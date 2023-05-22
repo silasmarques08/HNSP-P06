@@ -11,11 +11,11 @@ public abstract class Flow {                //1.3.2 Creation of the Flow class
     private LocalDate date;
 
     private static int count = 55000;
-    protected Flow(double _amount, int _target){
+    protected Flow(double _amount, int _target, String _comment){
     identifier = ++count;
     amount = _amount;
     target = _target;
-    comment = " No comment. ";
+    comment = _comment;
     effect = false;
     date = LocalDate.now().plusDays(2);
     }

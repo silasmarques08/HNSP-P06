@@ -1,9 +1,9 @@
-import java.nio.file.Paths;
 import java.util.*;
 import Components.*;
 import static java.lang.System.*;
 import java.util.function.Predicate;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class Main {                                     // 1.1.2 Creation of main class for tests
 
@@ -42,7 +42,6 @@ public static void testAccountDisplay(Collection<Account> allAccounts){
         allAccounts.stream().forEach(out::println);
     }
 
-    //1.3.1 Adaptation of the table of accounts
 public static Hashtable<Integer, Account> testEntryCreate(Collection<Account> allAccounts){ // 1.3.1 Adaptation of the table of accounts
 
     Hashtable<Integer, Account> testEntries = new Hashtable<>();
@@ -134,5 +133,7 @@ public static void processAll (ArrayList<Flow> allTransactions, Hashtable<Intege
         allTransactions = testFlowCreate(allEntries);
 
         processAll(allTransactions,allEntries);         //1.3.5 Updating accounts
+
+        allTransactions.stream().forEach(out::println);
     }
 }
