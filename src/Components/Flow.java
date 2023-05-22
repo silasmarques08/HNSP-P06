@@ -2,7 +2,7 @@ package Components;
 
 import java.time.*;
 
-public abstract class Flow {
+public abstract class Flow {                //1.3.2 Creation of the Flow class
     private String comment;
     private int identifier;
     private double amount;
