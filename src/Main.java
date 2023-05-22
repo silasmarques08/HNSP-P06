@@ -1,9 +1,7 @@
-import java.lang.reflect.Array;
 import java.util.*;
+import java.util.function.Predicate;
 
 import Components.*;
-import com.sun.source.tree.Tree;
-
 import static java.lang.System.*;
 
 public class Main {                                     // 1.1.2 Creation of main class for tests
@@ -89,13 +87,30 @@ public static ArrayList<Flow> testFlowCreate(Hashtable<Integer, Account> allEntr
     return testFlows;
 }
 
-public static void processAll (ArrayList<Flow> allTransactions, Hashtable<Integer, Account> allEntries){
+public static List<Account> checkBalances(Hashtable<Integer, Account> allEntries, Predicate<Double> predicate) {
+    List<Account> result = new ArrayList<>();
+
+    for (Account account: allEntries.values()){
+        if(predicate.test(account.getBalance())){
+            result.add(account);
+        }
+    }
+    return result;
+}
+
+public static void processAll (ArrayList<Flow> allTransactions, Hashtable<Integer, Account> allEntries){ //1.3.5 Updating accounts
     for(Flow transaction : allTransactions){
         allEntries.get(transaction.getTarget()).setBalance(transaction);
         if(transaction instanceof Transfer){
             allEntries.get(((Transfer) transaction).getSource()).setBalance(transaction);
         }
     }
+    List<Account> negativeBalances = checkBalances(allEntries, i -> i < 0);
+    if (!negativeBalances.isEmpty()){
+        out.println("\nWARNING! ACCOUNT(S) WITH NEGATIVE BALANCE. THEY ARE THE FOLLOWING:");
+        negativeBalances.stream().forEach(out::println);
+    }
+
 }
 
     public static void main(String[] args) {
@@ -113,7 +128,7 @@ public static void processAll (ArrayList<Flow> allTransactions, Hashtable<Intege
         ArrayList<Flow> allTransactions; //1.3.4 Creation of the flow array
         allTransactions = testFlowCreate(allEntries);
 
-        processAll(allTransactions,allEntries);
+        processAll(allTransactions,allEntries);  //1.3.5 Updating accounts
 
         testEntryDisplay(allEntries);
     }
