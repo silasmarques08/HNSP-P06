@@ -14,4 +14,9 @@ public class Transfer extends Flow{                     //1.3.3 Creation of the 
     public void setSource(int source) {
         this.source = source;
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }

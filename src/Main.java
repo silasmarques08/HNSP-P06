@@ -1,9 +1,15 @@
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
 import Components.*;
+
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.core.type.TypeReference;
 import static java.lang.System.*;
 import java.util.function.Predicate;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
 public class Main {                                     // 1.1.2 Creation of main class for tests
 
@@ -104,7 +110,7 @@ public static void processAll (ArrayList<Flow> allTransactions, Hashtable<Intege
     }
 
 }
-    public static List<Account> checkBalances(Hashtable<Integer, Account> allEntries, Predicate<Double> predicate) {
+public static List<Account> checkBalances(Hashtable<Integer, Account> allEntries, Predicate<Double> predicate) {
         List<Account> result = new ArrayList<>();
 
         for (Account account: allEntries.values()){
@@ -115,9 +121,29 @@ public static void processAll (ArrayList<Flow> allTransactions, Hashtable<Intege
         return result;
     }
 
+public static void flowLoad() throws IOException {
+
+    String jsonFlows = new String(Files.readAllBytes(Paths.get("src\\Assets\\allFlows.json")));
+
+    out.println(jsonFlows);
+
+    ObjectMapper objectMapper = new ObjectMapper();
+    ArrayList<Object> listFlow = objectMapper.readValue(jsonFlows, new TypeReference<ArrayList<Object>>() {
+    });
+
+    listFlow.stream().forEach(out::println);
+
+//    for (Object transaction : listFlow){
+//        if(transaction.toString().contains("comment=Debit")){
+//
+//        }
+//    }
 
 
-    public static void main(String[] args) {
+    }
+
+
+    public static void main(String[] args) throws IOException {
         Collection<Client> allClients;                  // 1.1.2 Creation of main class for tests
         allClients = testClientCreate(5);
         testClientDisplay(allClients);
@@ -135,5 +161,7 @@ public static void processAll (ArrayList<Flow> allTransactions, Hashtable<Intege
         processAll(allTransactions,allEntries);         //1.3.5 Updating accounts
 
         allTransactions.stream().forEach(out::println);
+
+        flowLoad();
     }
 }

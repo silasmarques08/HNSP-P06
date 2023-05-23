@@ -1,0 +1,63 @@
+[{
+			"amount": 50.0,
+			"target": 10001,
+			"comment": "Debit"
+		},
+		{
+
+			"amount": 100.5,
+			"target": 10001,
+			"comment": "Credit"
+		},
+		{
+			"amount": 100.5,
+			"target": 10003,
+			"comment": "Credit"
+		},
+		{
+			"amount": 100.5,
+			"target": 10005,
+			"comment": "Credit"
+		},
+		{
+			"amount": 100.5,
+			"target": 10007,
+			"comment": "Credit"
+		},
+		{
+			"amount": 100.5,
+			"target": 10009,
+			"comment": "Credit"
+		},
+		{
+			"amount": 1500.0,
+			"target": 10002,
+			"comment": "Credit"
+		},
+		{
+			"amount": 1500.0,
+			"target": 10004,
+			"comment": "Credit"
+		},
+		{
+			"amount": 1500.0,
+			"target": 10006,
+			"comment": "Credit"
+		},
+		{
+			"amount": 1500.0,
+			"target": 10008,
+			"comment": "Credit"
+		},
+		{
+			"amount": 1500.0,
+			"target": 10010,
+			"comment": "Credit"
+		},
+		{
+			"amount": 50.0,
+			"target": 10002,
+			"comment": "Trasfer",
+			"source": 10001
+		}
+	]

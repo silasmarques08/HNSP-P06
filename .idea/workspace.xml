@@ -5,10 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f71c2aff-1643-4825-aaca-2b10ef54bc5e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fasterxml_jackson_core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fasterxml_jackson_core_databind.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fasterxml_jackson_datatype_jsr310.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09d24d82e88981246c35437780e5ae25f1646b96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/20e115aa48748bcc0ea042d53ca65c46fe4a2557" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/397cbf1960060e0d2d0693cff6367350e9459879" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af9e42c27abf9f08f47f2ce53262797b4dab052c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/9/09d24d82e88981246c35437780e5ae25f1646b96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/0/20e115aa48748bcc0ea042d53ca65c46fe4a2557" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/9/397cbf1960060e0d2d0693cff6367350e9459879" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/f/af9e42c27abf9f08f47f2ce53262797b4dab052c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-annotations-2.14.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-annotations-2.14.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-annotations-2.15.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-annotations-2.15.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-core-2.13.3-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-core-2.13.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-core-2.14.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-core-2.14.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-core-2.15.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-core-2.15.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-databind-2.14.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-databind-2.14.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-databind-2.15.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-databind-2.15.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-dataformat-xml-2.14.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-dataformat-xml-2.14.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-datatype-jsr310-2.15.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-datatype-jsr310-2.15.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/stax2-api-4.2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/stax2-api-4.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/woodstox-core-6.5.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/woodstox-core-6.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/allFlows.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Credit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Debit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Debit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Flow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Flow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSBank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SSBank.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/allFlows.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/allFlows.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Transfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Transfer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -32,24 +67,31 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Pe13XCpsAK7y2jnjtSaXsxP7EI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -79,5 +121,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
